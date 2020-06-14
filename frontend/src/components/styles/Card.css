@@ -1,0 +1,23 @@
+.card {
+    background: white;
+    border-radius: .5em;
+}
+
+.card .card__head {
+    text-align: center;
+    font-size: .8em;
+    color: #37474F;
+    padding: .4em;
+}
+
+.card .card__body {
+    padding: 1em;
+}
+
+.card .card__body small {
+    color: #78909C;
+}
+
+.card .card__body p {
+    color: #455A64;
+}

@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    background: white;
+    color: gray;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.navbar .navbar__title .navbar-title {
+    margin: 0;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .navbar__links a {
+    text-decoration: none;
+    color: gray;
+    padding: 1em;
+    font-size: .8em;
+}
