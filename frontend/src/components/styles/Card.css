@@ -1,23 +1,36 @@
 .card {
-    background: white;
+    grid-column-end: span 4;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    cursor: pointer;
+    transition: .5s ease;
+    padding: 2em;
+    height: 250px;
+    margin-bottom: 1em;
     border-radius: .5em;
+    box-shadow: 6px 6px 2px gray;
 }
 
-.card .card__head {
-    text-align: center;
-    font-size: .8em;
-    color: #37474F;
-    padding: .4em;
+.card:hover {
+    transform: translateY(-7px);
 }
 
-.card .card__body {
-    padding: 1em;
+@media only screen and (max-width: 1000px) {
+    .card {
+        grid-column-end: span 6;
+    }
 }
 
-.card .card__body small {
-    color: #78909C;
+@media only screen and (max-width: 700px) { 
+    .card {
+        grid-column-end: span 12;
+    }
 }
 
-.card .card__body p {
-    color: #455A64;
+@media only screen and (max-width: 500px) {
+    .card {
+        grid-column-end: span 6;
+    }
 }
+  

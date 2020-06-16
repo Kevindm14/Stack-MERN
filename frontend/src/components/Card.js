@@ -4,7 +4,7 @@ import './styles/Card.css'
 const Card = ({ notes }) => (
     <div className="card">
         <div className="card__head">
-            <h1>{notes.title}</h1>
+            <h4>{notes.title}</h4>
         </div>
         <div className="card__body">
             <small>{notes.author.toLowerCase()}</small>

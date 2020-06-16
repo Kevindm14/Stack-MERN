@@ -1,8 +1,7 @@
 .navbar {
     display: flex;
     background: white;
-    color: gray;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 1em;
 }
@@ -10,6 +9,7 @@
 .navbar .navbar__title .navbar-title {
     margin: 0;
     font-size: 1em;
+    color: gray;
     font-weight: bold;
     text-decoration: none;
 }

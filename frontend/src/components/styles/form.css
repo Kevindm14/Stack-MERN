@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.form__card {
+    background: white;
+    border-radius: .4em;
+    text-align: center;
+    padding: 1em;
+}
+
+input, textarea {
+    resize: none;
+    width: 100%;
+    padding: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(241, 93, 77);
+    color: white;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+    .form {
+    }
+}

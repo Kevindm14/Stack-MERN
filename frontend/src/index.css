@@ -2,6 +2,13 @@
   font-size: 16px;
 }
 
-body {
+* {
   margin: 0;
+  padding: 0;
+}
+
+body {
+  background: salmon;
+  height: 100%;
+  width: 100%;
 }
